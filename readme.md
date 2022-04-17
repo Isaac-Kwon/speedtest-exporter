@@ -27,16 +27,16 @@
    /metrics/
 ```
 
-| metric name                      | type   | unit     | note                     |
-|:--------------------------------:|:------:|:--------:|:------------------------:|
-| speedtest-jitter-seconds         | float  | seconds  |                          |
-| speedtest-latency-seconds        | float  | seconds  |                          |
-| speedtest-bandwidth-bytesseconds | float  | byte/sec | type="download|upload"   |
-| speedtest-byte                   | int    | byte     | type="download|upload"   |
-| speedtest-time                   | int    | seconds  | type="download|upload"   |
-| speedtest-isp                    | string |          |                          |
-| speedtest-interface              | string |          |                          |
-| speedtest-server                 | int    |          |                          |
+| metric name                      | type   | unit     | note                      |
+|:--------------------------------:|:------:|:--------:|:-------------------------:|
+| speedtest-jitter-seconds         | float  | seconds  |                           |
+| speedtest-latency-seconds        | float  | seconds  |                           |
+| speedtest-bandwidth-bytesseconds | float  | byte/sec | type="download or upload" |
+| speedtest-byte                   | int    | byte     | type="download or upload" |
+| speedtest-time                   | int    | seconds  | type="download or upload" |
+| speedtest-isp                    | string |          |                           |
+| speedtest-interface              | string |          |                           |
+| speedtest-server                 | int    |          |                           |
 
 ## Other Method
 
